@@ -9,7 +9,6 @@ xray_catalogs = {
     'ROSAT All-Sky Survey': 'rosmaster',
     'Chandra Source Catalog': 'csc',
     'XMM-Newton SSC': 'xmmssc',
-    # The correct catalog name for Swift XRT (you may try 'swiftmastr' or check HEASARC docs)
     'Swift XRT Point Source Catalog': 'swiftmastr'  
 }
 
