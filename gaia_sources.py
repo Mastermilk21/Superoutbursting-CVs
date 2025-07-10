@@ -63,9 +63,9 @@ for index, row in df.iterrows():
         print(f"Error on {name}: {e}")
         continue
 
-    time.sleep(0.5)  # be gentle on the server
+    time.sleep(0.5)  
 
 # Write to file
 output_df = pd.DataFrame(results)
 output_df.to_csv("gaia_matches.csv", index=False)
-print("✅ Gaia query complete. Results saved to 'gaia_matches.csv'.")
+print(" Gaia query complete. Results saved to 'gaia_matches.csv'.")
