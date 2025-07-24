@@ -28,7 +28,7 @@ for idx, row in df.iterrows():
 
     for cat_name, cat_code in xray_catalogs.items():
         try:
-            query_result = heasarc.query_region(coord, catalog=cat_code, radius=2*u.arcsec)
+            query_result = heasarc.query_region(coord, catalog=cat_code, radius=10*u.arcsec)
             if query_result is not None and len(query_result) > 0:
                 for source in query_result:
                     results.append({
