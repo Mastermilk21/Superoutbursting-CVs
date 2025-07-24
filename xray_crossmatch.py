@@ -2,7 +2,7 @@ import pandas as pd
 from astroquery.heasarc import Heasarc
 from astropy.coordinates import SkyCoord
 import astropy.units as u
-
+" finds x-ray sources in various catalogs that match transient coordinates from a CSV file."
 heasarc = Heasarc()
 
 xray_catalogs = {
